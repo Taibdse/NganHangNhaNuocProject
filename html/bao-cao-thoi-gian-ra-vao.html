@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="../plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <!-- materialize css -->
+  <!-- <link rel="stylesheet" href="../plugins/materialize/css/materialize.min.css"> -->
+
+  <!-- Bootstrap core css -->
+  <link rel="stylesheet" href="../MDB Free/css/bootstrap.min.css">
+
+  <!-- Meterial Design Bootstrap -->
+  <link rel="stylesheet" href="../MDB Free/css/mdb.min.css">
+
+  <!-- datepicker css -->
+  <link rel="stylesheet" href="../plugins/bootstrap-datetimepicker/css/bootstrap-datepicker3.min.css">
+
+  <!-- bootstrap datetime picker css -->
+  <link rel="stylesheet" href="../plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css">
+
+  <!-- pagination css -->
+  <link rel="stylesheet" href="../plugins/paginationJs/pagination.css">
+
+  <!-- main view custom css -->
+  <link rel="stylesheet" href="../custom/css/main.css">
+
+  <title>Test</title>
+</head>
+
+<body>
+
+  <header class="py-4 bg-main-color">
+    <div class="row">
+      <div class="col-md-7">
+        <h2 class="text-white pl-2">Quản lý ra vào và chấm công</h2>
+      </div>
+      <div class="col-md-5">
+        <img src="" alt="" class="img-fluid">
+      </div>
+    </div>
+  </header>
+  
+  <div class="side-nav bg-main-color">
+    <ul class="list-group list-group-custom">
+      <li class="list-group-item">
+        <a href="danh-sach-nhan-vien.html">Danh sách nhân viên</a>
+      </li>
+      <li class="list-group-item">
+        <a href="">Danh sách tức thòi</a>
+      </li>
+      <li class="list-group-item">
+        <a href="">Báo cáo thòi gian ra vào</a>
+      </li>
+      <li class="list-group-item">
+        <a href="">Báo cáo tức thòi</a>
+      </li>
+    </ul>
+  </div>
+  <div class="main-content">
+    <div class="container-fluid">
+
+        <div class="row my-3 row-custom">
+         
+          <div class="col-12">
+            <div class="card card-chamCong">
+              <div class="card-header bg-main-color custom-card-header">
+                <h4>
+                  <i class="fa fa-exclamation-triangle"></i> Danh sách nhân viên</h4>
+              </div>
+              <div class="card-body custom-card-body">
+                <!-- <div class="row">
+                  <div class="col-12">
+                    <div class="text-center font-weight-bold green-text" style="font-size: 1.2em"></div>
+                  </div>
+                </div> -->
+                <!-- <div class="row my-3">
+                  <div class="col-sm-8">
+                    <div id="pagingChamCongControl"></div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div id="totalChamCong">
+    
+                    </div>
+                  </div>
+                </div> -->
+                <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label>Tên nhân viên</label>
+                        <input type="text" class="form-control" placeholder="Nhập tên nhân viên...">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label>Mã nhân viên</label>
+                        <input type="text" class="form-control" placeholder="Nhập mã nhân viên...">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label>Vụ</label>
+                        <select class="form-control">
+                          <option value="">Vụ 1</option>
+                          <option value="">Vụ 2</option>
+                          <option value="">Vụ 3</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label>Phòng</label>
+                        <select class="form-control">
+                          <option value="">Phòng 1</option>
+                          <option value="">Phòng 2</option>
+                          <option value="">Phòng 3</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped table-condensed text-center custom-table">
+                        <thead>
+                          <tr>
+                            <th>STT</th>
+                            <th>Họ Tên</th>
+                            <th>Mã nhân viên</th>
+                            <th>Chức vụ</th>
+                            <th>Phòng ban</th>
+                            <th>Vụ</th>
+                            <th></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>Bui Duc Tai</td>
+                            <td>SE12345</td>
+                            <td>Giám đốc</td>
+                            <td>Quản lý</td>
+                            <td>Quản lý</td>
+                            <td>
+                              <button class="btn btn-custom btn-success" style="margin: 0">Xem ra vào</button>
+                              <button class="btn btn-custom btn-warning" style="margin: 0">Cập nhật</button>
+                            </td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    </div>
+  </div>
+  <!-- navbar end -->
+  
+
+  <!-- Google Map API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2JtN93nl-xarvyDCUu5QOVtFNMJk0S-A"></script>
+
+  <!-- JQuery core -->
+  <script src="../MDB Free/js/jquery-3.3.1.min.js"></script>
+
+  <!-- popper js core -->
+  <script src="../MDB Free/js/popper.min.js"></script>
+
+  <!-- bootstrap js core -->
+  <script src="../MDB Free/js/bootstrap.min.js"></script>
+
+  <!-- Meterail Design Bootstrap JS -->
+  <script src="../MDB Free/js/mdb.min.js"></script>
+
+  <!-- materialize js -->
+  <script src="../plugins/materialize/js/materialize.min.js"></script>
+
+  <!-- bootstrap datepicker js -->
+  <script src="../plugins/bootstrap-datetimepicker/js/bootstrap-datepicker.min.js"></script>
+
+  <!-- datetimepicker js -->
+  <script src="../plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+
+  <!-- pagination js -->
+  <script src="../plugins/paginationJs/pagination.min.js"></script>
+
+  <!-- translate js plugins -->
+  <script src="../plugins/translate.js-master/jquery.translate.js"></script>
+
+  <!-- validation js -->
+  <script src="../custom/js/validation.js"></script>
+
+  <!-- main js -->
+  <script src="../custom/js/main.js"></script>
+
+  <!-- translate language -->
+  <script src="../custom/js/translate.js"></script>
+
+  <!-- service request -->
+  <script src="../custom/js/service.js"></script>
+
+  <!-- custom incident js -->
+  <!-- <script src="../custom/js/chamCongNhanVien.js"></script> -->
+
+
+</body>
+
+</html>

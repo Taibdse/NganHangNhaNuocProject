@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="../plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap core css -->
+  <link rel="stylesheet" href="../MDB Free/css/bootstrap.min.css">
+
+  <!-- Meterial Design Bootstrap -->
+  <link rel="stylesheet" href="../MDB Free/css/mdb.min.css">
+
+  <!-- datepicker css -->
+  <link rel="stylesheet" href="../plugins/bootstrap-datetimepicker/css/bootstrap-datepicker3.min.css">
+
+  <!-- bootstrap datetime picker css -->
+  <link rel="stylesheet" href="../plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css">
+
+  <!-- pagination css -->
+  <link rel="stylesheet" href="../plugins/paginationJs/pagination.css">
+
+  <!-- main view custom css -->
+  <link rel="stylesheet" href="../custom/css/main.css">
+
+  <style>
+    @media(max-width: 760px){
+      #btnInDanhSachTrongToaNha{
+        margin-top: 0!important;
+      }
+    }
+    
+  </style>
+  <title>Danh sách tức thời</title>
+
+</head>
+
+<body>
+  <header class="">
+    <img src="../img/banner5.png" alt="" class="img-fluid">
+  </header>
+  <div class="wrapper mt-3">
+    <div class="side-nav">
+      <ul class="list-group list-group-custom">
+        <li class="list-group-item">
+          <a class="nav-link" href="danh-sach-nhan-vien.html">
+            <i class="fa fa-users"></i> Danh sách nhân viên
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a class="nav-link" href="danh-sach-tuc-thoi.html">
+            <i class="fa fa-th-list"></i> Danh sách tức thời
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a class="nav-link" href="cham-cong-nhan-vien.html">
+            <i class="fa fa-calendar"></i> Báo cáo thời gian ra vào
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a class="nav-link" href="bao-cao-tuc-thoi.html">
+            <i class="fa fa-star"></i> Báo cáo tức thời
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <div class="container-fluid">
+        <div class="row my-3 row-custom">
+          <div class="col-12">
+            <div class="card card-chamCong">
+              <div class="card-header custom-card-header">
+                <h6>
+                  Danh sách tức thời
+                </h6>
+              </div>
+              <div class="card-body custom-card-body">
+
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="form-group">
+                      <label class="font-weight-bold">Vụ</label>
+                      <select class="form-control form-control-sm selectSuperDep custom-input" id="selectSuperDep">
+
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="form-group">
+                      <label class="font-weight-bold">Phòng</label>
+                      <select class="form-control form-control-sm selectDep custom-input" id="selectDep">
+
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="form-group">
+                      <label class="font-weight-bold">Số người có trong tòa nhà</label>
+                      <input class="form-control form-control-sm custom-input" id="txtNumOfPeopleInHouse"/>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <button class="btn btn-custom border-radius-custom" style="margin-top: 27px; text-transform: none; background-color: #414a59;"
+                      id="btnInDanhSachTrongToaNha">In danh sách có trong tòa nhà</button>
+                  </div>
+
+                </div>
+
+                <div class="table-responsive" id="onSiteListArea">
+
+                </div>
+
+                <!-- pagination -->
+                <div class="row my-3">
+                  <div class="col-sm-4">
+                    <div id="pagingTotal" class="pull-right">
+
+                    </div>
+                  </div>
+                  <div class="col-sm-8">
+                    <div id="pagingControl" class="pull-right">
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal print users -->
+  <div class="row">
+    <div class="col-12">
+      <div class="modal fade" id="modalPrintUsers" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title trn">Danh sách ra vào</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-12">
+                  <div class="table-responsive">
+                    <table class="table table-hover table-striped table-condensed text-center custom-table" id="tblPrintUsers">
+
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-custom bg-main-color trn" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JQuery core -->
+  <script src="../MDB Free/js/jquery-3.3.1.min.js"></script>
+
+  <!-- popper js core -->
+  <script src="../MDB Free/js/popper.min.js"></script>
+
+  <!-- bootstrap js core -->
+  <script src="../MDB Free/js/bootstrap.min.js"></script>
+
+  <!-- Meterail Design Bootstrap JS -->
+  <script src="../MDB Free/js/mdb.min.js"></script>
+
+  <!-- bootstrap datepicker js -->
+  <script src="../plugins/bootstrap-datetimepicker/js/bootstrap-datepicker.min.js"></script>
+
+  <!-- datetimepicker js -->
+  <script src="../plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+
+  <!-- sweetalert js -->
+  <script src="../plugins/sweetalert/js/sweetalert.min.js"></script>
+
+  <!-- Export2Excel js -->
+  <script src="../plugins/Export-Html-Table-To-Excel-Spreadsheet-using-jQuery-table2excel/dist/jquery.table2excel.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.5/jstree.min.js"></script>
+
+  <!-- pagination js -->
+  <script src="../plugins/paginationJs/pagination.min.js"></script>
+
+  <!-- translate js plugins -->
+  <script src="../plugins/translate.js-master/jquery.translate.js"></script>
+
+  <!-- main js -->
+  <script src="../custom/js/main.js"></script>
+
+  <!-- translate language -->
+  <script src="../custom/js/translate.js"></script>
+
+  <!-- services -->
+  <script src="../custom/js/services/common.service.js"></script>
+  <script src="../custom/js/services/alert.service.js"></script>
+  <script src="../custom/js/services/time.service.js"></script>
+  <script src="../custom/js/services/exportExcel.service.js"></script>
+  <script src="../custom/js/services/validation.service.js"></script>
+  <script src="../custom/js/services/remove-vn-accent.service.js"></script>
+  <script src="../custom/js/services/filter.service.js"></script>
+  <script src="../custom/js/services/user.service.js"></script>
+  <script src="../custom/js/services/position.service.js"></script>
+  <script src="../custom/js/services/department.service.js"></script>
+  <script src="../custom/js/services/super-department.service.js"></script>
+
+  <!-- select components -->
+  <script src="../custom/js/components/select.component.js"></script>
+
+  <!-- sidenav js -->
+  <script src="../custom/js/sidenav.js"></script>
+
+  <!-- danh-sach-tuc-thoi.js -->
+  <script src="../custom/js/danh-sach-tuc-thoi.js"></script>
+
+</body>
+
+</html>

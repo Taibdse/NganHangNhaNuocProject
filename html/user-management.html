@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="../plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap core css -->
+  <link rel="stylesheet" href="../MDB Free/css/bootstrap.min.css">
+
+  <!-- Meterial Design Bootstrap -->
+  <link rel="stylesheet" href="../MDB Free/css/mdb.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
+
+  <!-- datepicker css -->
+  <link rel="stylesheet" href="../plugins/bootstrap-datetimepicker/css/bootstrap-datepicker3.min.css">
+
+  <!-- bootstrap datetime picker css -->
+  <link rel="stylesheet" href="../plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css">
+
+  <!-- pagination css -->
+  <link rel="stylesheet" href="../plugins/paginationJs/pagination.css">
+
+  <!-- main view custom css -->
+  <link rel="stylesheet" href="../custom/css/main.css">
+  
+  <title>Quản lý người dùng</title>
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="main-content-page-iframe">
+      <div class="container-fluid">
+        <div class="row my-3 row-custom">
+          <div class="col-12">
+            <div class="card card-chamCong">
+              <div class="card-header custom-card-header">
+                <h6>
+                  Quản lý người dùng
+                </h6>
+              </div>
+              <div class="card-body custom-card-body">
+                
+                <div class="row">
+                  <div class="col-12">
+                    <button class="btn btn-custom pull-right border-radius-custom" id="btnShowInsertUserSystem" style="background-color: #4a5972; text-transform: none">Thêm người dùng</button>
+                  </div>
+                </div>
+
+                <div class="table-responsive" id="userSystemArea">
+                    
+                </div>
+                
+                <!-- pagination -->
+                <div class="row my-3">
+                  <div class="col-sm-4">
+                    <div id="pagingTotal" class="pull-right">
+    
+                    </div>
+                  </div>
+                  <div class="col-sm-8" style="text-align: right">
+                    <div id="pagingControl" class="pull-right">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal update user -->
+  <div class="row">
+    <div class="col-12">
+      <div class="modal fade" id="modalpdateUserSystem" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title trn">Cập nhật người dùng</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group">
+                    <label class="font-weight-bold">Họ và tên</label>
+                    <input type="text" class="form-control form-control-sm" placeholder="Nhập họ tên.." id="txtUpdateFullname">
+                  </div>
+                  <div class="form-group">
+                    <label class="font-weight-bold">Tên người dùng</label>
+                    <input type="text" class="form-control form-control-sm" placeholder="Nhập tên người dùng.." id="txtUpdateUsername">
+                  </div>
+                  <div class="form-group">
+                    <label class="font-weight-bold">Mật khẩu</label>
+                    <input type="password" class="form-control form-control-sm" placeholder="Nhập mật khẩu.." id="txtUpdatePassword">
+                  </div>
+                  <div class="form-group">
+                    <label class="font-weight-bold">Admin</label>
+                    <input type="checkbox" id="checkboxUpdateAdminStatus">
+                  </div>
+                  <div class="form-group">
+                    <label class="font-weight-bold">Trang truy cập</label><br>
+                    <input type="checkbox" name="pageCanBeAccessed" id=""> <span>Danh sách nhân viên</span><br>
+                    <input type="checkbox" name="pageCanBeAccessed" id=""> <span>Danh sách tức thời</span><br>
+                    <input type="checkbox" name="pageCanBeAccessed" id=""> <span>Chấm công nhân viên</span><br>
+                    <input type="checkbox" name="pageCanBeAccessed" id=""> <span>Báo cáo tức thời</span>
+                    <input type="checkbox" name="pageCanBeAccessedInsert" id=""> <span>Danh sách xe</span>
+                    <input type="checkbox" name="pageCanBeAccessedInsert" id=""> <span>Danh sách xe tức thời</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-custom bg-main-color trn" data-dismiss="modal">Đóng</button>
+              <button type="button" class="btn btn-custom trn" id="btnUpdateUserSystem" style="background-color: #3572d4;">Lưu</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- insert user -->
+  <div class="row">
+    <div class="col-12">
+      <div class="modal fade" id="modalInsertUserSystem" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title trn">Thêm người dùng</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group">
+                    <label class="font-weight-bold">Họ và tên</label>
+                    <input type="text" class="form-control form-control-sm" placeholder="Nhập họ tên.." id="txtInsertFullname">
+                  </div>
+                  <div class="form-group">
+                    <label class="font-weight-bold">Tên người dùng</label>
+                    <input type="text" class="form-control form-control-sm" placeholder="Nhập tên người dùng.." id="txtInsertUsername">
+                  </div>
+                  <div class="form-group">
+                    <label class="font-weight-bold">Mật khẩu</label>
+                    <input type="password" class="form-control form-control-sm" placeholder="Nhập mật khẩu.." id="txtInsertPassword">
+                  </div>
+                  <div class="form-group">
+                    <label class="font-weight-bold">Admin</label>
+                    <input type="checkbox" id="checkboxInsertAdminStatus">
+                  </div>
+                  <div class="form-group">
+                    <label class="font-weight-bold">Trang truy cập</label><br>
+                    <input type="checkbox" name="pageCanBeAccessedInsert" id=""> <span>Danh sách nhân viên</span><br>
+                    <input type="checkbox" name="pageCanBeAccessedInsert" id=""> <span>Danh sách tức thời</span><br>
+                    <input type="checkbox" name="pageCanBeAccessedInsert" id=""> <span>Chấm công nhân viên</span><br>
+                    <input type="checkbox" name="pageCanBeAccessedInsert" id=""> <span>Báo cáo tức thời</span>
+                    <input type="checkbox" name="pageCanBeAccessedInsert" id=""> <span>Danh sách xe</span>
+                    <input type="checkbox" name="pageCanBeAccessedInsert" id=""> <span>Danh sách xe tức thời</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-custom bg-main-color trn" data-dismiss="modal">Đóng</button>
+              <button type="button" class="btn btn-custom trn" id="btnInsertUserSystem" style="background-color: #3572d4;">Lưu</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JQuery core -->
+  <script src="../MDB Free/js/jquery-3.3.1.min.js"></script>
+
+  <!-- popper js core -->
+  <script src="../MDB Free/js/popper.min.js"></script>
+
+  <!-- bootstrap js core -->
+  <script src="../MDB Free/js/bootstrap.min.js"></script>
+
+  <!-- Meterail Design Bootstrap JS -->
+  <script src="../MDB Free/js/mdb.min.js"></script>
+
+  <!-- bootstrap datepicker js -->
+  <script src="../plugins/bootstrap-datetimepicker/js/bootstrap-datepicker.min.js"></script>
+
+  <!-- datetimepicker js -->
+  <script src="../plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+
+  <!-- sweetalert js -->
+  <script src="../plugins/sweetalert/js/sweetalert.min.js"></script>
+
+  <!-- pagination js -->
+  <script src="../plugins/paginationJs/pagination.min.js"></script>
+
+  <!-- translate js plugins -->
+  <script src="../plugins/translate.js-master/jquery.translate.js"></script>
+
+  <!-- table2Excel js -->
+  <script src="../plugins/Export-Html-Table-To-Excel-Spreadsheet-using-jQuery-table2excel/dist/jquery.table2excel.min.js"></script>
+
+  <!-- bootstrap tree view js -->
+  <script src="../plugins/TreeViewBootstrap/js/bootstrap-treeview.js"></script>
+
+  <!-- main js -->
+  <script src="../custom/js/main.js"></script>
+
+  <!-- translate language -->
+  <script src="../custom/js/translate.js"></script>
+
+  <!-- services -->
+  <script src="../custom/js/services/common.service.js"></script>
+  <script src="../custom/js/services/alert.service.js"></script>
+  <script src="../custom/js/services/time.service.js"></script>
+  <script src="../custom/js/services/exportExcel.service.js"></script>
+  <script src="../custom/js/services/validation.service.js"></script>
+  <script src="../custom/js/services/remove-vn-accent.service.js"></script>
+  <script src="../custom/js/services/filter.service.js"></script>
+  <script src="../custom/js/services/user.service.js"></script>
+  <script src="../custom/js/services/position.service.js"></script>
+  <script src="../custom/js/services/department.service.js"></script>
+  <script src="../custom/js/services/super-department.service.js"></script>
+  <script src="../custom/js/services/user-management.service.js"></script>
+
+  <!-- select components -->
+  <script src="../custom/js/components/select.component.js"></script>
+
+  <!-- sidenav js -->
+  <script src="../custom/js/sidenav.js"></script>
+
+  <!-- user-management-vien js -->
+  <script src="../custom/js/user-management.js"></script>
+
+</body>
+
+</html>

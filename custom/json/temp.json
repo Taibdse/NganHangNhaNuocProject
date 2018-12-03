@@ -1,0 +1,251 @@
+[{
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"00522\",\"iDepartmentID\":85,\"iSuperDepartmentID\":16,\"sFullname\":\"NGUYỄN  HÀ \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":3,\"dMonth\":11,\"dTimeIN\":\"12:58\",\"dTimeOUT\":\"13:09\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"00820\",\"iDepartmentID\":89,\"iSuperDepartmentID\":17,\"sFullname\":\"TRẦN  THANH HẢI \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":6,\"dMonth\":11,\"dTimeIN\":\"16:15\",\"dTimeOUT\":\"16:15\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"00882\",\"iDepartmentID\":89,\"iSuperDepartmentID\":17,\"sFullname\":\"NGUYỄN VĂN  NGỌC \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":6,\"dMonth\":11,\"dTimeIN\":\"16:16\",\"dTimeOUT\":\"16:16\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"00885\",\"iDepartmentID\":89,\"iSuperDepartmentID\":17,\"sFullname\":\"NGUYỄN THỊ  MINH THƠ \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":6,\"dMonth\":11,\"dTimeIN\":\"14:32\",\"dTimeOUT\":\"16:15\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"00887\",\"iDepartmentID\":89,\"iSuperDepartmentID\":17,\"sFullname\":\"PHÍ HẢI ANH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":6,\"dMonth\":11,\"dTimeIN\":\"16:16\",\"dTimeOUT\":\"16:16\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"00979\",\"iDepartmentID\":87,\"iSuperDepartmentID\":16,\"sFullname\":\"NGUYỄN TIẾN  HOÀN \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":3,\"dMonth\":11,\"dTimeIN\":\"10:09\",\"dTimeOUT\":\"10:40\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"00983\",\"iDepartmentID\":89,\"iSuperDepartmentID\":17,\"sFullname\":\"TRƯƠNG THÁI  NGỌC ANH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":6,\"dMonth\":11,\"dTimeIN\":\"16:15\",\"dTimeOUT\":\"16:15\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01122\",\"iDepartmentID\":85,\"iSuperDepartmentID\":16,\"sFullname\":\"NGUYỄN CHÍ THANH \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":3,\"dMonth\":11,\"dTimeIN\":\"10:08\",\"dTimeOUT\":\"13:14\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01213\",\"iDepartmentID\":85,\"iSuperDepartmentID\":16,\"sFullname\":\"VƯƠNG QUỐC HÒA\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":26,\"dMonth\":11,\"dTimeIN\":\"10:50\",\"dTimeOUT\":\"10:50\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01214\",\"iDepartmentID\":85,\"iSuperDepartmentID\":16,\"sFullname\":\"BÙI  VIỆT HƯNG \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":3,\"dMonth\":11,\"dTimeIN\":\"10:31\",\"dTimeOUT\":\"13:09\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01224\",\"iDepartmentID\":83,\"iSuperDepartmentID\":16,\"sFullname\":\"NGUYỄN CÔNG THÀNH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":15,\"dMonth\":11,\"dTimeIN\":\"10:51\",\"dTimeOUT\":\"10:51\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01241\",\"iDepartmentID\":85,\"iSuperDepartmentID\":16,\"sFullname\":\"TRẦN  THANH NGHỊ \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":3,\"dMonth\":11,\"dTimeIN\":\"13:25\",\"dTimeOUT\":\"15:02\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01252\",\"iDepartmentID\":83,\"iSuperDepartmentID\":16,\"sFullname\":\"HOÀNG VĂN PHƯỢNG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":3,\"dMonth\":11,\"dTimeIN\":\"10:53\",\"dTimeOUT\":\"10:53\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01264\",\"iDepartmentID\":85,\"iSuperDepartmentID\":16,\"sFullname\":\"ĐÀO MỘNG  HÙNG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":3,\"dMonth\":11,\"dTimeIN\":\"09:47\",\"dTimeOUT\":\"09:47\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01274\",\"iDepartmentID\":85,\"iSuperDepartmentID\":16,\"sFullname\":\"NGUYỄN THỊ  THANH NHÀN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":16,\"dMonth\":11,\"dTimeIN\":\"10:33\",\"dTimeOUT\":\"10:33\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01284\",\"iDepartmentID\":85,\"iSuperDepartmentID\":16,\"sFullname\":\"ĐẶNG TRẦN HỒNG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":3,\"dMonth\":11,\"dTimeIN\":\"08:33\",\"dTimeOUT\":\"08:33\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01610\",\"iDepartmentID\":98,\"iSuperDepartmentID\":19,\"sFullname\":\"NGUYỄN LAN ANH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:55\",\"dTimeOUT\":\"09:55\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01611\",\"iDepartmentID\":*,\"iSuperDepartmentID\":19,\"sFullname\":\"NGUYỄN XUÂN  HẢI\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01612\",\"iDepartmentID\":99,\"iSuperDepartmentID\":19,\"sFullname\":\"VŨ KIỀU  VÂN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01613\",\"iDepartmentID\":99,\"iSuperDepartmentID\":19,\"sFullname\":\"NGUYỄN THỊ MINH NGỌC\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01614\",\"iDepartmentID\":*,\"iSuperDepartmentID\":19,\"sFullname\":\"PHẠM HOÀI  PHI\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    },
+    {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01616\",\"iDepartmentID\":99,\"iSuperDepartmentID\":19,\"sFullname\":\"NGUYỄN THANH HUYỀN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01617\",\"iDepartmentID\":99,\"iSuperDepartmentID\":19,\"sFullname\":\"TRẦN VĂN HƯƠNG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01622\",\"iDepartmentID\":99,\"iSuperDepartmentID\":19,\"sFullname\":\"ĐỖ HUY  CHÍ\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01624\",\"iDepartmentID\":99,\"iSuperDepartmentID\":19,\"sFullname\":\"TRẦN ANH HÒA\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01625\",\"iDepartmentID\":99,\"iSuperDepartmentID\":19,\"sFullname\":\"HÀ LINH CHI\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01626\",\"iDepartmentID\":98,\"iSuperDepartmentID\":19,\"sFullname\":\"HOÀNG VĂN MINH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:55\",\"dTimeOUT\":\"09:55\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01627\",\"iDepartmentID\":*,\"iSuperDepartmentID\":19,\"sFullname\":\"LÊ CHÍ THĂNG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:57\",\"dTimeOUT\":\"09:57\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01630\",\"iDepartmentID\":*,\"iSuperDepartmentID\":19,\"sFullname\":\"ĐỖ QUANG TRUNG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01634\",\"iDepartmentID\":*,\"iSuperDepartmentID\":19,\"sFullname\":\"MAI LÊ  KHÁNH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01635\",\"iDepartmentID\":*,\"iSuperDepartmentID\":19,\"sFullname\":\"NGUYỄN CÔNG CỪ\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01636\",\"iDepartmentID\":*,\"iSuperDepartmentID\":19,\"sFullname\":\"NGUYỄN THỊ  THANH HÀ\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01638\",\"iDepartmentID\":99,\"iSuperDepartmentID\":19,\"sFullname\":\"CHÂU TRƯỜNG SƠN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01643\",\"iDepartmentID\":98,\"iSuperDepartmentID\":19,\"sFullname\":\"TRỊNH QUANG KHẢI\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01646\",\"iDepartmentID\":*,\"iSuperDepartmentID\":19,\"sFullname\":\"TRƯƠNG THANH HÀ\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:57\",\"dTimeOUT\":\"09:57\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01647\",\"iDepartmentID\":*,\"iSuperDepartmentID\":19,\"sFullname\":\"TRỊNH TRỌNG  THỦY\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:57\",\"dTimeOUT\":\"09:57\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01648\",\"iDepartmentID\":*,\"iSuperDepartmentID\":19,\"sFullname\":\"PHẠM VĂN CƯỜNG \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:57\",\"dTimeOUT\":\"09:57\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01650\",\"iDepartmentID\":*,\"iSuperDepartmentID\":19,\"sFullname\":\"TRẦN THỊ  HƯƠNG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:57\",\"dTimeOUT\":\"09:57\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01796\",\"iDepartmentID\":85,\"iSuperDepartmentID\":16,\"sFullname\":\"VŨ BÁ  BIÊN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":10,\"dMonth\":11,\"dTimeIN\":\"08:23\",\"dTimeOUT\":\"08:23\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01832\",\"iDepartmentID\":89,\"iSuperDepartmentID\":17,\"sFullname\":\"TRẦN THỊ  HOÀI THU \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":6,\"dMonth\":11,\"dTimeIN\":\"16:15\",\"dTimeOUT\":\"16:15\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01833\",\"iDepartmentID\":99,\"iSuperDepartmentID\":19,\"sFullname\":\"ĐỖ  ANH TUẤN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01835\",\"iDepartmentID\":89,\"iSuperDepartmentID\":17,\"sFullname\":\"PHAN  HOÀI DƯƠNG \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":6,\"dMonth\":11,\"dTimeIN\":\"16:15\",\"dTimeOUT\":\"16:15\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01837\",\"iDepartmentID\":89,\"iSuperDepartmentID\":17,\"sFullname\":\"NGUYỄN VĂN  TOÀN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":6,\"dMonth\":11,\"dTimeIN\":\"16:14\",\"dTimeOUT\":\"16:14\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01839\",\"iDepartmentID\":89,\"iSuperDepartmentID\":17,\"sFullname\":\"NGUYỄN THỊ  BẮC NINH \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":6,\"dMonth\":11,\"dTimeIN\":\"16:14\",\"dTimeOUT\":\"16:14\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01840\",\"iDepartmentID\":89,\"iSuperDepartmentID\":17,\"sFullname\":\"TRẦN NGUYÊN GIANG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"08:59\",\"dTimeOUT\":\"08:59\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01865\",\"iDepartmentID\":85,\"iSuperDepartmentID\":16,\"sFullname\":\"ĐINH VĂN TRUNG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":3,\"dMonth\":11,\"dTimeIN\":\"11:03\",\"dTimeOUT\":\"11:03\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01970\",\"iDepartmentID\":89,\"iSuperDepartmentID\":17,\"sFullname\":\"NGUYỄN HOÀNG HẢI\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":6,\"dMonth\":11,\"dTimeIN\":\"16:15\",\"dTimeOUT\":\"16:15\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01976\",\"iDepartmentID\":89,\"iSuperDepartmentID\":17,\"sFullname\":\"NGUYỄN VĂN  NAM\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":6,\"dMonth\":11,\"dTimeIN\":\"16:14\",\"dTimeOUT\":\"16:14\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"01987\",\"iDepartmentID\":89,\"iSuperDepartmentID\":17,\"sFullname\":\"PHẠM  THANH NGỌC \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":6,\"dMonth\":11,\"dTimeIN\":\"16:15\",\"dTimeOUT\":\"16:15\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02001\",\"iDepartmentID\":89,\"iSuperDepartmentID\":17,\"sFullname\":\"ĐINH VĂN THÁM\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":6,\"dMonth\":11,\"dTimeIN\":\"16:15\",\"dTimeOUT\":\"16:15\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02341\",\"iDepartmentID\":*,\"iSuperDepartmentID\":19,\"sFullname\":\"BÙI THỊ HUY ANH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02514\",\"iDepartmentID\":*,\"iSuperDepartmentID\":19,\"sFullname\":\"NGUYỄN  HẢI YẾN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":9,\"dMonth\":11,\"dTimeIN\":\"09:56\",\"dTimeOUT\":\"09:56\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02799\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN HỮU HÙNG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:40\",\"dTimeOUT\":\"17:40\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02800\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN HỒNG  QUANG \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:40\",\"dTimeOUT\":\"17:40\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02801\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"LẠI MINH HANH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:39\",\"dTimeOUT\":\"17:39\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02802\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"NGÔ THỊ  HƯƠNG LIÊN \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:40\",\"dTimeOUT\":\"17:40\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02803\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"HỒ SỸ TRỌNG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:40\",\"dTimeOUT\":\"17:40\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02804\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"BẠCH THỊ MAY\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:40\",\"dTimeOUT\":\"17:40\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02805\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"LÊ PHI TRÚC\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:40\",\"dTimeOUT\":\"17:40\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02806\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"TRẦN TIẾN VĨNH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:39\",\"dTimeOUT\":\"17:39\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02807\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"ĐỖ MẠNH HIẾU\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:40\",\"dTimeOUT\":\"17:40\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02808\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN TRUNG THÀNH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:40\",\"dTimeOUT\":\"17:40\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02809\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"TRẦN VĂN THANH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:39\",\"dTimeOUT\":\"17:39\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02810\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN TUẤN ANH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:40\",\"dTimeOUT\":\"17:40\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02811\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN THẾ  DUY\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:40\",\"dTimeOUT\":\"17:40\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02812\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"LÊ THỊ  SƠN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:40\",\"dTimeOUT\":\"17:40\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02813\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"TRẦN NGỌC  ĐIỆP\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:40\",\"dTimeOUT\":\"17:40\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02814\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"TRẦN HOÀNG LONG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:40\",\"dTimeOUT\":\"17:40\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02815\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN MẠNH HUY\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:40\",\"dTimeOUT\":\"17:40\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02816\",\"iDepartmentID\":97,\"iSuperDepartmentID\":18,\"sFullname\":\"BÙI DUY THÀNH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:40\",\"dTimeOUT\":\"17:40\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02817\",\"iDepartmentID\":96,\"iSuperDepartmentID\":18,\"sFullname\":\"HÀ  KIM DUNG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:21\",\"dTimeOUT\":\"17:21\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02818\",\"iDepartmentID\":96,\"iSuperDepartmentID\":18,\"sFullname\":\"ĐẶNG THỊ DẬU\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:21\",\"dTimeOUT\":\"17:21\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02819\",\"iDepartmentID\":96,\"iSuperDepartmentID\":18,\"sFullname\":\"BÙI PHƯƠNG  DUNG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:21\",\"dTimeOUT\":\"17:21\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02820\",\"iDepartmentID\":96,\"iSuperDepartmentID\":18,\"sFullname\":\"NGÔ  HOÀNG YẾN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:21\",\"dTimeOUT\":\"17:21\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02821\",\"iDepartmentID\":96,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN KIM  NGỌC \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:21\",\"dTimeOUT\":\"17:21\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02822\",\"iDepartmentID\":96,\"iSuperDepartmentID\":18,\"sFullname\":\"TRẦN THỊ  LAN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:22\",\"dTimeOUT\":\"17:22\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02823\",\"iDepartmentID\":96,\"iSuperDepartmentID\":18,\"sFullname\":\"BÙI THỊ  MINH TOÀN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:21\",\"dTimeOUT\":\"17:21\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02824\",\"iDepartmentID\":96,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN THỊ  THANH NGÂN \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:22\",\"dTimeOUT\":\"17:22\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02825\",\"iDepartmentID\":96,\"iSuperDepartmentID\":18,\"sFullname\":\"TRẦN  KIM NGỌC \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:22\",\"dTimeOUT\":\"17:22\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02826\",\"iDepartmentID\":96,\"iSuperDepartmentID\":18,\"sFullname\":\"HOÀNG THỊ  MINH HẢI \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:21\",\"dTimeOUT\":\"17:21\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02827\",\"iDepartmentID\":96,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN THỊ  THU HẰNG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:22\",\"dTimeOUT\":\"17:22\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02829\",\"iDepartmentID\":96,\"iSuperDepartmentID\":18,\"sFullname\":\"PHẠM PHƯƠNG THẢO\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:22\",\"dTimeOUT\":\"17:22\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02830\",\"iDepartmentID\":96,\"iSuperDepartmentID\":18,\"sFullname\":\"TRẦN THỊ  NHƯ QUỲNH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"17:21\",\"dTimeOUT\":\"17:21\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02837\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"ĐOÀN HÙNG SƠN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:02\",\"dTimeOUT\":\"18:02\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02838\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"BÙI THỊ  MINH PHƯỢNG \",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:03\",\"dTimeOUT\":\"18:03\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02839\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"ĐÀM TRƯỜNG  SƠN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:02\",\"dTimeOUT\":\"18:02\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02840\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"ĐỖ THỊ  LAN ANH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:03\",\"dTimeOUT\":\"18:03\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02841\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"KIỀU THU NGA\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:02\",\"dTimeOUT\":\"18:02\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02842\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN KIM OANH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:03\",\"dTimeOUT\":\"18:03\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02843\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"PHẠM THỊ  TUYẾT MAI\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:02\",\"dTimeOUT\":\"18:02\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02844\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN THỊ  HƯƠNG GIANG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:02\",\"dTimeOUT\":\"18:02\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02845\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN THỊ  THẮM\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:02\",\"dTimeOUT\":\"18:02\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02846\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"TRẦN HỮU SƠN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:02\",\"dTimeOUT\":\"18:02\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02847\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"LƯU ĐỨC TIẾN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:02\",\"dTimeOUT\":\"18:02\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02848\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"LƯU ĐỨC TUẤN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:03\",\"dTimeOUT\":\"18:03\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02849\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"BÙI SỸ  MẠNH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:03\",\"dTimeOUT\":\"18:03\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02850\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN NGỌC QUÝ\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:02\",\"dTimeOUT\":\"18:02\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02851\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN VĂN  THẠNH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:02\",\"dTimeOUT\":\"18:02\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02852\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"ĐỖ TUẤN  ANH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:03\",\"dTimeOUT\":\"18:03\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02853\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN ĐĂNG ĐỈNH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:03\",\"dTimeOUT\":\"18:03\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02854\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN VIỆT  DŨNG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:02\",\"dTimeOUT\":\"18:02\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02855\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"TẠ DANH QUYỀN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:02\",\"dTimeOUT\":\"18:02\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02856\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN HẢI PHONG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:03\",\"dTimeOUT\":\"18:03\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02857\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"HOÀNG MINH TRÍ\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:02\",\"dTimeOUT\":\"18:02\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02858\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"NGÔ MẠNH QUÂN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:02\",\"dTimeOUT\":\"18:02\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02859\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN HỒNG LOAN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:03\",\"dTimeOUT\":\"18:03\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02868\",\"iDepartmentID\":85,\"iSuperDepartmentID\":16,\"sFullname\":\"HOÀNG VĂN QUẾ\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"14:32\",\"dTimeOUT\":\"14:32\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02869\",\"iDepartmentID\":92,\"iSuperDepartmentID\":18,\"sFullname\":\"ĐOÀN THỊ  LAN HƯƠNG\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":26,\"dMonth\":11,\"dTimeIN\":\"10:48\",\"dTimeOUT\":\"10:48\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02888\",\"iDepartmentID\":94,\"iSuperDepartmentID\":18,\"sFullname\":\"NGUYỄN MINH TUẤN\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"11:25\",\"dTimeOUT\":\"11:25\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02909\",\"iDepartmentID\":95,\"iSuperDepartmentID\":18,\"sFullname\":\"PHẠM THỊ  NGỌC MINH\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":7,\"dMonth\":11,\"dTimeIN\":\"18:02\",\"dTimeOUT\":\"18:02\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"123123\",\"iDepartmentID\":2,\"iSuperDepartmentID\":2,\"sFullname\":\"Leonel David\",\"bDimuonVesom\":\"00\",\"Attendance\":[{\"dDate\":2,\"dMonth\":11,\"dTimeIN\":\"10:06\",\"dTimeOUT\":\"10:06\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"02862\",\"iDepartmentID\":70,\"iSuperDepartmentID\":15,\"sFullname\":\"Vũ Hồng Minh\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":5,\"dMonth\":11,\"dTimeIN\":\"11:36\",\"dTimeOUT\":\"11:37\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"A28-T01-02860\",\"iDepartmentID\":70,\"iSuperDepartmentID\":15,\"sFullname\":\"Phạm Hùng Thắng\",\"bDimuonVesom\":\"01\",\"Attendance\":[{\"dDate\":5,\"dMonth\":11,\"dTimeIN\":\"11:37\",\"dTimeOUT\":\"11:37\"}]}"
+    }, {
+        "TimeAttendanceAll": "{\"sLogicalCode\":\"THETHO_076\",\"iDepartmentID\":*,\"iSuperDepartmentID\":20,\"sFullname\":\"THẺ THỢ 076\",\"bDimuonVesom\":\"00\",\"Attendance\":[{\"dDate\":15,\"dMonth\":11,\"dTimeIN\":\"16:01\",\"dTimeOUT\":\"16:01\"}]}"
+    }
+]

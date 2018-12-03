@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="../plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap core css -->
+  <link rel="stylesheet" href="../MDB Free/css/bootstrap.min.css">
+
+  <!-- Meterial Design Bootstrap -->
+  <link rel="stylesheet" href="../MDB Free/css/mdb.min.css">
+
+  <!-- datepicker css -->
+  <link rel="stylesheet" href="../plugins/bootstrap-datetimepicker/css/bootstrap-datepicker3.min.css">
+
+  <!-- bootstrap datetime picker css -->
+  <link rel="stylesheet" href="../plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css">
+
+  <!-- pagination css -->
+  <link rel="stylesheet" href="../plugins/paginationJs/pagination.css">
+
+  <!-- main view custom css -->
+  <link rel="stylesheet" href="../custom/css/main.css">
+
+  <title>Thiết lập phòng ban</title>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-main-color white-text" style="padding-top: 0; padding-bottom: 0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <i class="fa fa-shield icon-custom" style="color: whitesmoke"></i>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars icon-custom" style="color: white"></i>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="danh-sach-nhan-vien.html">
+                <i class="fa fa-th-list"></i> Danh sách nhân viên
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="danh-sach-tuc-thoi.html">
+                <i class="fa fa-th-list"></i> Danh sách tức thời
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cham-cong-nhan-vien.html">
+                <i class="fa fa-star"></i> Báo cáo thời gian ra vào
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bao-cao-tuc-thoi.html">
+                <i class="fa fa-star"></i> Báo cáo tức thời
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="mt-4" style="padding-left: 40px">
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <img src="../img/banner-ngan-hang-nha-nuoc.png" alt="" class="img-fluid">
+            </div>
+          </div>
+      </div>
+    </header>
+
+      
+    <div class="wrapper mt-3">
+      <div class="side-nav">
+          
+          <div class="float-left bg-main-color left-content-treeview pt-3"> 
+            <div id="jstree_demo_div">
+              <ul>
+                <li>Root node 1</li>
+                <li>Root node 2</li>
+                <li>
+                  Children
+                  <ul>
+                    <li>Child 1</li>
+                    <li>Child 3</li>
+                    <li>GrandChildren
+                      <ul>
+                        <li>GrandChild 1</li>
+                        <li>GrandChild 2</li>
+                        <li>GrandChild 3</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="float-left right-content-cog">
+            <span class="cog"><i class="fa fa-cog"></i>
+            </span>
+          </div>
+      </div>
+    
+      <div class="main-content">
+        <div class="container-fluid">
+          <div class="row my-3 row-custom">
+            <div class="col-12">
+              <div class="card card-chamCong">
+                <div class="card-header bg-main-color custom-card-header">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <h4>
+                        <i class="fa fa-exclamation-triangle"></i> Thiết lập phòng ban
+                      </h4>
+                    </div>
+                    <div class="col-md-4">
+                      <button class="btn btn-custom border-radius-custom pull-right">Thêm phòng ban</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body custom-card-body">
+
+                  <div class="table-responsive" id="depDataArea">
+                    <table class="table table-hover table-striped table-condensed text-center custom-table">
+                      <thead>
+                        <tr>
+                          <th class="font-weight-bold">STT</th>
+                          <th class="font-weight-bold">Header 1</th>
+                          <th class="font-weight-bold">Header 2</th>
+                          <th class="font-weight-bold">Header 3</th>
+                          <th class="font-weight-bold">Header 4</th>
+                          <th class="font-weight-bold"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>Header 1</td>
+                          <td>Header 2</td>
+                          <td>Header 3</td>
+                          <td>Header 4</td>
+                          <td>
+                            <button class="btn btn-custom border-radius-custom bg-main-color">Cập nhật</button>
+                            <button class="btn btn-custom border-radius-custom" style="background-color: #6785b2">Xóa</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Header 1</td>
+                          <td>Header 2</td>
+                          <td>Header 3</td>
+                          <td>Header 4</td>
+                          <td>
+                            <button class="btn btn-custom border-radius-custom bg-main-color">Cập nhật</button>
+                            <button class="btn btn-custom border-radius-custom" style="background-color: #6785b2">Xóa</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Header 1</td>
+                          <td>Header 2</td>
+                          <td>Header 3</td>
+                          <td>Header 4</td>
+                          <td>
+                            <button class="btn btn-custom border-radius-custom bg-main-color">Cập nhật</button>
+                            <button class="btn btn-custom border-radius-custom" style="background-color: #6785b2">Xóa</button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <!-- pagination -->
+                  <div class="row my-3">
+                    <div class="col-sm-4">
+                      <div id="pagingTotal" class="pull-right">
+      
+                      </div>
+                    </div>
+                    <div class="col-sm-8">
+                      <div id="pagingControl" class="pull-right">
+
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal print users -->
+  <div class="row">
+    <div class="col-12">
+      <div class="modal fade" id="modalPrintUsers" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title trn">Danh sách ra vào</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-12">
+                  <div class="table-responsive">
+                    <table class="table table-hover table-striped table-condensed text-center custom-table" id="tblPrintUsers">
+                      
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-custom bg-main-color trn" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JQuery core -->
+  <script src="../MDB Free/js/jquery-3.3.1.min.js"></script>
+
+  <!-- popper js core -->
+  <script src="../MDB Free/js/popper.min.js"></script>
+
+  <!-- bootstrap js core -->
+  <script src="../MDB Free/js/bootstrap.min.js"></script>
+
+  <!-- Meterail Design Bootstrap JS -->
+  <script src="../MDB Free/js/mdb.min.js"></script>
+
+  <!-- bootstrap datepicker js -->
+  <script src="../plugins/bootstrap-datetimepicker/js/bootstrap-datepicker.min.js"></script>
+
+  <!-- datetimepicker js -->
+  <script src="../plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+  
+  <!-- sweetalert js -->
+  <script src="../plugins/sweetalert/js/sweetalert.min.js"></script>
+
+  <!-- Export2Excel js -->
+  <script src="../plugins/Export-Html-Table-To-Excel-Spreadsheet-using-jQuery-table2excel/dist/jquery.table2excel.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.5/jstree.min.js"></script>
+
+  <!-- pagination js -->
+  <script src="../plugins/paginationJs/pagination.min.js"></script>
+
+  <!-- translate js plugins -->
+  <script src="../plugins/translate.js-master/jquery.translate.js"></script>
+
+  <!-- main js -->
+  <script src="../custom/js/main.js"></script>
+
+  <!-- translate language -->
+  <script src="../custom/js/translate.js"></script>
+
+  <!-- services -->
+  <script src="../custom/js/services/common.service.js"></script>
+  <script src="../custom/js/services/alert.service.js"></script>
+  <script src="../custom/js/services/time.service.js"></script>
+  <script src="../custom/js/services/exportExcel.service.js"></script>
+  <script src="../custom/js/services/validation.service.js"></script>
+  <script src="../custom/js/services/remove-vn-accent.service.js"></script>
+  <script src="../custom/js/services/filter.service.js"></script>
+  <script src="../custom/js/services/user.service.js"></script>
+  <script src="../custom/js/services/position.service.js"></script>
+  <script src="../custom/js/services/department.service.js"></script>
+  <script src="../custom/js/services/super-department.service.js"></script>
+
+  <!-- select components -->
+  <script src="../custom/js/components/select.component.js"></script>
+
+  <!-- sidenav js -->
+  <script src="../custom/js/sidenav.js"></script>
+
+  <!-- danh-sach-tuc-thoi.js -->
+  <script src="../custom/js/danh-sach-tuc-thoi.js"></script>
+
+</body>
+
+</html>

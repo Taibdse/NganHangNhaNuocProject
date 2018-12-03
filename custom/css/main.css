@@ -1,0 +1,256 @@
+:root{
+  --bg-main-color: #293030;
+  --bg-main-color: #1e2d44;
+  --bg-main-color: #0b2628;
+  --bg-main-color: #002080;
+  --bg-main-color: #00134d;
+  --bg-main-color: #000d33;
+  --bg-main-color: #212529;
+  --bg-main-color: #4A5972;
+  --bg-main-color: #dadee5;
+  --bg-main-color: #343538;
+  /* --bg-main-color: #c7d0ed; */
+  /* --bg-main-color: #1e9099; */
+  /* --bg-main-color: #4eb256; */
+  /* /* --bg-main-color: #635808; */
+  /* --bg-main-color: #efd82f; */
+  /* --bg-main-color: #2fef45; */
+  /* --bg-main-color: #8b6e93; */
+  /* --bg-main-color: #9cd89f;  */
+
+}
+
+body{
+  font-size: 0.9em !important;
+  background-color:rgba(0,0,0,0.03);
+  
+}
+
+.wrapper{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.side-nav{
+  width: 220px;
+  color: #ffffff;
+  /* transition: all 0.3s ease-in-out; */
+  z-index: 10;
+  height: 100vh;
+  float: left;
+  overflow-y: auto;
+  padding-top: 20px;
+  position: fixed;
+  left: 0px;
+  top: 110px;
+  background-color: #dce1ea;
+}
+
+.side-nav a{
+  font-size: 1.02em;
+  font-weight: bold!important;
+}
+
+.custom-card-header h4, .custom-card-header h5,.custom-card-header h6{
+  font-weight: bold!important;
+}
+
+label{
+  font-size: 1.2em!important;
+}
+
+.list-group-custom .list-group-item{
+  background-color: #dce1ea;
+  border: none;
+}
+
+.list-group-custom .list-group-item a{
+  color: white!important;
+  color: black!important;
+}
+
+.main-content{
+  width: calc(100% - 220px);
+  margin: 0px 220px;
+}
+.main-content-page-iframe{
+  width: 100%;
+}
+
+.side-nav .list-group-custom{
+  background-color: #212529;
+}
+
+.treeview .list-group-item{
+  background-color:var(--bg-main-color)!important;
+  color: white;
+}
+.checkbox-custom{
+  width: 16px;
+  height: 16px;
+}
+.bg-main-color{
+  background-color: var(--bg-main-color) !important;
+}
+.card-guard .btn-group-custom .btn{
+  font-size: 1em;
+}
+nav.navbar{
+  padding-top: 0; 
+  padding-bottom: 0
+}
+.navbar .icon-navbar{
+  font-size: 1.2em;
+}
+.navbar i{
+  color: white;
+}
+.navbar * {
+  color: white;
+  font-weight: 600;
+  font-size: 1em;
+}
+.navbar .nav-item:hover, .active-menu-item{
+  background-color: skyblue;
+}
+
+.navbar .dropdown-menu {
+  background-color: var(--bg-main-color); 
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  color: white !important;
+  font-weight: 600 !important;
+  margin: 0 !important;
+}
+.navbar .dropdown-menu .dropdown-item:hover{
+  background-color: skyblue;
+}
+
+.btn-custom {
+  font-size: 0.9em;
+  padding: 7px 10px;
+}
+.btn-custom-small{
+  font-size: 0.85em;
+  text-transform: capitalize;
+  margin-top: -5px;
+  margin-left: 0px
+}
+.input-custom{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.combobox-custom{
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.icon-custom{
+  font-size: 2.2em;
+  color: lightblue;
+  margin-right: 15px;
+}
+.custom-table td, .custom-table th{
+  padding-top:10px !important; 
+  padding-bottom:10px !important; 
+}
+
+.custom-card-header{
+  padding-top: 5px !important;
+  padding-bottom: 0 !important;
+  background-color: #a2bff9;
+  font-weight: bold;
+  color: black !important;
+  font-size: 1.2em !important;
+}
+.custom-table thead th{
+  font-size: 1em!important;
+}
+
+.custom-table tbody td{
+  font-size: 0.95em!important;
+}
+
+.form-group label{
+  font-size: 1em!important;
+}
+
+.form-group .form-control{
+  font-size: 1em!important;
+}
+
+.custom-card-body{
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.card-header{
+  color: white;
+}
+.card-body{
+  padding: 5px !important;
+}
+.custom-input{
+  /* border-radius: 15px; */
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+.custom-input:focus{
+  /* border: none; */
+  border: 1px solid green!important;
+  box-shadow: none;
+}
+.border-radius-custom{
+  border-radius: 15px!important;
+}
+.mymap{
+  height: 400px;
+  width: 100%;
+}
+.dropdown-menu{
+  z-index: 10000;
+}
+.dropdown-item{
+  margin: 5px !important;
+}
+.min-height-table{
+  min-height: 200px;
+}
+.btnScrollTop{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: green;
+  color: white;
+}
+.btnScrollTop .fa{
+  font-size: 2em;
+}
+.modal-dialog.modal-dialog-custom {
+  max-width: 80% !important;
+}
+
+.modal-dialog.modal-dialog-super-lg-custom {
+  max-width: 90% !important;
+  max-height: 600px !important;
+}
+.list-group-item{
+  padding: 5px!important;
+}
+
+/* set font-size small */
+.table{
+  margin-top: -10px!important;
+}
+.table th, .table td, label, .form-control{
+  font-size: 0.8em!important;
+}
+.table .btn{
+  margin-top: -8px!important;
+}
